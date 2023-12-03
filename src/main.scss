@@ -1,0 +1,120 @@
+.header_container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 2rem;
+        align-self: center;
+        li{
+            color: white;
+            transition: all 0.5s;
+            
+            &:hover{
+            color: yellow;
+            transform: scale(1.2);
+            }
+
+            .Link_prop{
+                position: relative;
+                text-decoration: none;
+                color: white;
+                transition: all 0.5s;
+                &:hover{
+                    color: yellow;
+              
+                    }
+                    .numberIncrement{
+                        position: absolute;
+                        top: -2rem;
+                        left: -0.5rem;
+                        width: fit-content;
+                      
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid blue;
+                        color: white;
+                        border-radius: 50%;
+                        
+                    }
+            }
+
+         
+        }
+
+    }
+    
+    
+    
+}
+
+.data_container{
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    input{
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
+    .btnSubmit{
+        background-color:skyblue;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
+}
+
+.to_read{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    .read_data{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        padding: 1rem;
+        background: black;
+        border-bottom: 1px solid wheat;
+        border-radius: 5px;
+       
+        p{
+         width: 5rem;
+    background: black;
+    color: white;
+    font-family: fantasy;
+    overflow-x: auto;
+    overflow-y: hidden;
+            
+        }
+        input{
+            width: 5rem;
+        }
+     button{
+        background-color: aqua;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+       
+        border-radius: 1rem;
+    }
+    }
+   
+}
