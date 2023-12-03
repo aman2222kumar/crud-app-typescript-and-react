@@ -17,7 +17,7 @@ function Header():JSX.Element{
             <h1>Book World</h1>
             <ul>
                 <li>
-                   <Link to={'https://aman2222kumar.github.io/crud-app-typescript-and-react/'} className='Link_prop'>Home</Link> 
+                   <Link to={'/'} className='Link_prop'>Home</Link> 
                 </li>
                 <li>
                    

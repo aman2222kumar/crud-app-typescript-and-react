@@ -20,7 +20,7 @@ function App() {
      {/* <ToRead/> */}
      <Routes>
           {/* <Route  path="/" element={<Main />} /> */}
-          <Route  path="https://aman2222kumar.github.io/crud-app-typescript-and-react/" element={<Main />} />
+          <Route  path="/" element={<Main />} />
           <Route  path="/routes/toRead" element={<ToRead />} />
           <Route  path="/routes/toReadCompleted" element={<ToReadCompleted/>} />
          
