@@ -103,4 +103,83 @@
   align-items: center;
   padding: 0.5rem;
   border-radius: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+  .header_container h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 0.7rem;
+    align-self: center;
+  }
+  .header_container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    align-self: center;
+  }
+  .header_container ul li {
+    color: white;
+    transition: all 0.5s;
+    font-size: 0.8rem;
+  }
+  .header_container ul li:hover {
+    color: yellow;
+    transform: scale(1.2);
+  }
+  .header_container ul li .Link_prop {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+  .header_container ul li .Link_prop:hover {
+    color: yellow;
+  }
+  .header_container ul li .Link_prop .numberIncrement {
+    position: absolute;
+    top: -2rem;
+    left: -0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 50%;
+  }
+  .mainData h2 {
+    font-size: 0.8rem;
+  }
+  .data_container {
+    height: -moz-max-content;
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data_container input {
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  .data_container .btnSubmit {
+    background-color: skyblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */

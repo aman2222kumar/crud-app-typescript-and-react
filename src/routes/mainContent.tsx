@@ -67,7 +67,7 @@ function Main():any{
       }
     return(
         <>
-        <section>
+        <section className="mainData">
           <h2>Add Your Books from here!</h2>
             <div className="data_container">
               <input type="text" placeholder="enter book title" value={title} onChange={handleChange}></input>
