@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/crud-app-typescript-and-react/static/css/main.f61638ef.css",
-    "main.js": "/crud-app-typescript-and-react/static/js/main.58291243.js",
+    "main.css": "/crud-app-typescript-and-react/static/css/main.2c49f4f6.css",
+    "main.js": "/crud-app-typescript-and-react/static/js/main.421434da.js",
     "static/js/787.a8b1c1c3.chunk.js": "/crud-app-typescript-and-react/static/js/787.a8b1c1c3.chunk.js",
     "index.html": "/crud-app-typescript-and-react/index.html",
-    "main.f61638ef.css.map": "/crud-app-typescript-and-react/static/css/main.f61638ef.css.map",
-    "main.58291243.js.map": "/crud-app-typescript-and-react/static/js/main.58291243.js.map",
+    "main.2c49f4f6.css.map": "/crud-app-typescript-and-react/static/css/main.2c49f4f6.css.map",
+    "main.421434da.js.map": "/crud-app-typescript-and-react/static/js/main.421434da.js.map",
     "787.a8b1c1c3.chunk.js.map": "/crud-app-typescript-and-react/static/js/787.a8b1c1c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f61638ef.css",
-    "static/js/main.58291243.js"
+    "static/css/main.2c49f4f6.css",
+    "static/js/main.421434da.js"
   ]
 }
