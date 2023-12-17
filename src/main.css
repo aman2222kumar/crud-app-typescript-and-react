@@ -121,7 +121,7 @@
   .header_container ul {
     display: flex;
     list-style-type: none;
-    gap: 2rem;
+    gap: 1rem;
     align-self: center;
   }
   .header_container ul li {
